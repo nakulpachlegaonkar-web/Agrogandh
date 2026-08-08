@@ -1,0 +1,128 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 252, 247, 0.94);
+  border-bottom: 1px solid rgba(84, 56, 41, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.header-container {
+  width: calc(100% - (var(--page-gutter) * 2));
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #193624;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 12px 26px rgba(53, 39, 30, 0.14);
+}
+
+.brand-copy {
+  display: grid;
+  gap: 2px;
+}
+
+.brand-copy strong {
+  font-size: 1.05rem;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+
+.brand-copy span {
+  font-size: 0.88rem;
+  color: #7a6c5f;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav a {
+  color: #584d44;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.site-shell.lang-mr .nav {
+  gap: 14px;
+}
+
+.site-shell.lang-mr .nav a {
+  font-size: 0.88rem;
+}
+
+.nav a:hover {
+  color: #7f2f1d;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #163c2b, #305643);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 12px 24px rgba(22, 60, 43, 0.16);
+}
+
+.header-cta:hover {
+  background: linear-gradient(135deg, #7f2f1d, #a94e30);
+}
+
+@media (max-width: 960px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav {
+    order: 3;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-container {
+    padding: 12px 0;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header-cta {
+    flex: 1;
+  }
+}

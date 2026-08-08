@@ -1,0 +1,34 @@
+.seed-video {
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #f1f8e9, #ffffff);
+}
+
+.seed-video-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seed-video h2 {
+  font-size: 30px;
+  color: #2e7d32;
+  margin-bottom: 16px;
+}
+
+.seed-video p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.video-wrapper {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
