@@ -1,4 +1,5 @@
 User-agent: *
+
 Allow: /
 
-Sitemap: https://agrogandhseeds.com/sitemap.xml
+Sitemap: https://www.agrogandhseeds.com/sitemap.xml

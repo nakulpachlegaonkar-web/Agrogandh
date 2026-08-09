@@ -1,0 +1,14 @@
+/* TEAM */
+
+Company: Agrogandh Seeds
+
+Website:
+https://www.agrogandhseeds.com
+
+Developer:
+Nakul
+
+Technology:
+React
+TypeScript
+AWS Amplify
